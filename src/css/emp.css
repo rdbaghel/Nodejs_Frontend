@@ -1,0 +1,88 @@
+
+.formSize
+{
+    width: 500px;
+}
+
+/* EmployeeTable.css */
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tr td {
+    transition: background-color 0.3s;
+}
+
+/* Update.css */
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+.table {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures rounded corners are applied to the table */
+}
+
+.table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.table td {
+    vertical-align: middle; /* Center content vertically */
+}
+
+.table img {
+    cursor: pointer; /* Changes cursor to pointer for images */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    margin-right: 5px;
+}
+
+
+
+
+.table img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .table {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+
